@@ -1,0 +1,584 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#hero_container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./picturs/HeroImage\ \(1\).png);
+  background-size: cover;
+}
+#header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 118px;
+  padding-right: 118px;
+  position: sticky;
+  top: 0;
+}
+#navbar_items {
+  display: flex;
+  gap: 24px;
+}
+.navbar_item {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#hero_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 169px;
+}
+#pure {
+  color: #e8edf2b8;
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+}
+#awaits {
+  color: white;
+  font-weight: 400;
+  font-size: 250px;
+  font-family: "Bebas Neue", sans-serif;
+}
+#year {
+  color: #ffffffcc;
+  font-size: 54px;
+  font-weight: 900;
+  font-family: "Hanuman", serif;
+}
+#location_container {
+  background-image: url(./picturs/Location.image.png);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#location_card1 {
+  background-image: url(./picturs/card1.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+#location_card1:hover {
+  opacity: 0.5;
+}
+.cardtext {
+  font-size: 37px;
+  color: #fdfdfecc;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  max-width: 232px;
+  text-align: center;
+}
+#location_card2 {
+  background-image: url(./picturs/card2.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+#location_card2:hover {
+  opacity: 0.5;
+}
+
+#location_card3 {
+  background-image: url(./picturs/card3.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+#location_card3:hover {
+  opacity: 0.5;
+}
+#location_card4 {
+  background-image: url(./picturs/card4.png);
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+#location_card4:hover {
+  opacity: 0.5;
+}
+/* prace&footer secion start */
+.raod_map_container {
+  background-image: url(./picturs/Roadmap/image.png);
+  background-size: cover;
+  width: 100%;
+  height: 902px;
+}
+#raod_map_text_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+}
+#raod_map_text1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  color: #000000;
+}
+#raod_map_text2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #18181bb2;
+}
+.map_day_card_container1 {
+  width: 513px;
+  height: 112px;
+  background-color: #eee9d9;
+  border-radius: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid transparent;
+  box-sizing: border-box;
+}
+.map_day_card_container1:hover {
+  border-color: white;
+}
+.text_Sukhbaatar {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+.Ulaanbator_container {
+  display: flex;
+}
+.day_container {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day_text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.aimag_name_text {
+  font-size: 12px;
+  font-weight: 400;
+}
+#raod_map_day_container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 120px;
+  padding-top: 59px;
+}
+.map_day_card_container2 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bb8c1cc;
+  border-radius: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid transparent;
+}
+.map_day_card_container2:hover {
+  border-color: white;
+}
+.text_Sukhbaatar {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+.Ulaanbator_container {
+  display: flex;
+}
+.day_container {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day_text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.aimag_name_text {
+  font-size: 12px;
+  font-weight: 400;
+}
+#raod_map_day_container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 120px;
+  padding-top: 59px;
+}
+.map_day_card_container3 {
+  width: 513px;
+  height: 112px;
+  background-color: #aad8d7cc;
+  border-radius: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid transparent;
+}
+.map_day_card_container3:hover {
+  border-color: white;
+}
+.text_Sukhbaatar {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+.Ulaanbator_container {
+  display: flex;
+}
+.day_container {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day_text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.aimag_name_text {
+  font-size: 12px;
+  font-weight: 400;
+}
+#raod_map_left_container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 120px;
+  padding-top: 59px;
+  width: 1200px;
+  height: 640px;
+}
+.map_day_card_container4 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bc0bdcc;
+  border-radius: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid transparent;
+}
+.map_day_card_container4:hover {
+  border-color: white;
+}
+.text_Sukhbaatar {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+.Ulaanbator_container {
+  display: flex;
+}
+.day_container {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day_text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.aimag_name_text {
+  font-size: 12px;
+  font-weight: 400;
+}
+.map_day_card_container5 {
+  width: 513px;
+  height: 112px;
+  background-color: #97cce0cc;
+  border-radius: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid transparent;
+}
+.map_day_card_container5:hover {
+  border-color: white;
+}
+.map_day_card_container5 .text_Sukhbaatar {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+.Ulaanbator_container {
+  display: flex;
+}
+.day_container {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day_text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.aimag_name_text {
+  font-size: 12px;
+  font-weight: 400;
+}
+#footer_secion {
+  background-image: url(./picturs/footer.png);
+  width: 100%;
+  height: 1120px;
+}
+#title_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  gap: 10px;
+}
+.footer_title1 {
+  width: 1440px;
+  height: 51px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.footer_title2 {
+  width: 1440px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #18181bb2;
+}
+.package_card_container {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  border-radius: 40px;
+  padding-left: 24px;
+  padding-top: 34px;
+  margin-top: 79px;
+}
+.package_card_container:hover {
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.package_title_container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.price_container {
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #303030;
+}
+.subtitle_text {
+  color: #919191;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+}
+.header_text_container {
+  padding-top: 32px;
+  padding-left: 64px;
+}
+.item_text_container {
+  display: flex;
+  gap: 20px;
+  padding-top: 17.5px;
+}
+.Select_package_container {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+}
+.package_card_container:hover.Select_package_container {
+  background-color: #000000;
+  color: white;
+}
+.package_big_container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.popular {
+  width: 91px;
+  height: 27px;
+  border-radius: 9999px;
+  background-color: #6972b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popular_text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #fafbfc;
+}
+.popular_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  padding-right: 24px;
+}
+.footer_logo_container {
+  width: 167px;
+  height: 44px;
+  background-color: #fafbfc;
+  border-radius: 9999px;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  gap: 10px;
+}
+.logo_text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #6972b5;
+}
+.footer_container {
+  display: flex;
+  gap: 20px;
+  padding-top: 265px;
+  padding-left: 120px;
+}
+.footer_big_container {
+  display: flex;
+  justify-content: space-around;
+}
+.pineture_logo {
+  padding-top: 269.5px;
+}
+.hover1 {
+  position: absolute;
+  display: none;
+  top: 65px;
+  left: 900px;
+}
+.map_day_card_container1:hover .hover1 {
+  display: flex;
+}
+.hover2 {
+  position: absolute;
+  display: none;
+  top: 6px;
+  left: 700px;
+}
+.map_day_card_container2:hover .hover2 {
+  display: block;
+}
+.hover3 {
+  position: absolute;
+  display: none;
+}
+.map_day_card_container3:hover .hover3 {
+  display: block;
+}
+.hover4 {
+  position: absolute;
+  display: none;
+}
+.map_day_card_container4:hover .hover4 {
+  display: block;
+}
+.hover5 {
+  position: absolute;
+  display: none;
+}
+.map_day_card_container5:hover .hover5 {
+  display: block;
+}
+.pin_dad {
+  width: 647px;
+  height: 640px;
+  position: relative;
+}
+#left_container_dad {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.pin_chilld {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
