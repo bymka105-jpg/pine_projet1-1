@@ -297,10 +297,15 @@
   display: flex;
   gap: 20px;
   flex-direction: column;
-  padding-left: 120px;
-  padding-top: 59px;
   width: 1200px;
   height: 640px;
+}
+.left_container_chilld {
+  width: 513px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .map_day_card_container4 {
   width: 513px;
