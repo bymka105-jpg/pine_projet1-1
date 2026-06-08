@@ -293,19 +293,20 @@
   font-size: 12px;
   font-weight: 400;
 }
-#raod_map_left_container {
+#raod_map_right_container {
   display: flex;
-  gap: 20px;
-  flex-direction: column;
+  gap: 50px;
   width: 1200px;
   height: 640px;
+  padding-top: 59px;
 }
-.left_container_chilld {
+#left_container_chilld {
   width: 513px;
   height: 640px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: relative;
 }
 .map_day_card_container4 {
   width: 513px;
@@ -473,7 +474,7 @@
   align-items: center;
   margin-top: 37px;
 }
-.package_card_container:hover.Select_package_container {
+.Select_package_container:hover {
   background-color: #000000;
   color: white;
 }
@@ -554,6 +555,8 @@
 .hover3 {
   position: absolute;
   display: none;
+  left: 583px;
+  top: 82px;
 }
 .map_day_card_container3:hover .hover3 {
   display: block;
@@ -561,6 +564,14 @@
 .hover4 {
   position: absolute;
   display: none;
+  top: -77px;
+  left: 532px;
+}
+.hover5 {
+  position: absolute;
+  display: none;
+  top: -11%;
+  left: 721px;
 }
 .map_day_card_container4:hover .hover4 {
   display: block;
@@ -585,5 +596,24 @@
 .pin_chilld {
   width: 34px;
   height: 34px;
+}
+#pin_chilld1 {
   position: absolute;
+  top: 42px;
+  left: 279px;
+}
+#pin_chilld2 {
+  position: absolute;
+  top: 164px;
+  left: 107px;
+}
+#pin_chilld3 {
+  position: absolute;
+  top: 239px;
+  left: 535px;
+}
+#pin_chilld4 {
+  position: absolute;
+  top: 416px;
+  left: 279px;
 }
